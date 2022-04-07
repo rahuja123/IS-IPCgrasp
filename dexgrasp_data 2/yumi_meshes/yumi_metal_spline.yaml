@@ -1,0 +1,24 @@
+type: ParallelJawGripper
+params:
+  name: yumi_metal_spline
+  tooltip_poses:
+    - type: RigidTransform
+      params:
+        from_frame: tooltip
+        to_frame: gripper
+        rotation: [
+            [0.0,  0.0, 1.0],
+            [0.0, -1.0, 0.0],
+            [1.0,  0.0, 0.0],
+        ]
+        translation: [-0.025, -0.000011, 0.160098]
+    - type: RigidTransform
+      params:
+        from_frame: tooltip
+        to_frame: gripper
+        rotation: [
+            [0.0, 0.0, -1.0],
+            [0.0, 1.0, 0.0],
+            [1.0, 0.0, 0.0],
+        ]
+        translation: [0.025, 0.000011, 0.160098]
