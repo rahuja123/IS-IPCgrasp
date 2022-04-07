@@ -1,3 +1,5 @@
 dexgrasp_data/
 output/
 build/
+external/
+input/
